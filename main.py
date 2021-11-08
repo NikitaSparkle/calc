@@ -5,7 +5,10 @@ num2 = input()
 print('Action')
 action = input()
 if action == '/':
-    print(int(num1) / int(num2))
+    if num2 == '0':
+        print('error')
+    else:
+        print(int(num1) / int(num2))
 elif action == '+':
     print(int(num1) + int(num2))
 else:
