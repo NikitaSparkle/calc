@@ -11,5 +11,7 @@ if action == '/':
         print(int(num1) / int(num2))
 elif action == '+':
     print(int(num1) + int(num2))
+if action == '*':
+    print(int(num1) * int(num2))
 else:
     print('error')
