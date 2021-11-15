@@ -26,3 +26,12 @@ if action == '^':
 else:
     print('error')
 
+if action == '!':
+    num3 = 1
+    result = 1
+    while(int(num3)<=int(num1)):
+        result = int(result) * int(num3)
+        num3 = int(num3) + 1
+    print(result)
+else:
+    print('error')
