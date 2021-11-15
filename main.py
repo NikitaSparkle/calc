@@ -1,3 +1,5 @@
+from time import sleep
+
 print('First num')
 num1 = input()
 
@@ -13,18 +15,16 @@ if action == '/':
     else:
         print(int(num1) / int(num2))
 
+
 elif action == '+':
     print(int(num1) + int(num2))
 
+
 if action == '*':
     print(int(num1) * int(num2))
-else:
-    print('error')
 
 if action == '^':
     print(int(num1)**int(num2))
-else:
-    print('error')
 
 if action == '!':
     num3 = 1
@@ -33,5 +33,5 @@ if action == '!':
         result = int(result) * int(num3)
         num3 = int(num3) + 1
     print(result)
-else:
-    print('error')
+
+sleep(99999)
